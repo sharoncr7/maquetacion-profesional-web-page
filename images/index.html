@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney | Sitio Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <!-- Usando el logo del repositorio -->
+            <img src="images/disney_logo.png" alt="Disney" class="nav-logo">
+            <a href="#">DISNEY+</a>
+            <a href="#">PARKS & TRAVEL</a>
+            <a href="#">MOVIES</a>
+            <a href="#">SHOP</a>
+            <a href="#">MORE</a>
+        </div>
+        <div class="nav-right">
+            <a href="#" class="login-btn">LOG IN</a>
+            <input type="text" placeholder="Search" class="search-bar">
+        </div>
+    </nav>
+
+    <!-- HERO / BANNER PRINCIPAL (Snow White) -->
+    <section class="hero-banner">
+        <div class="hero-content">
+            <!-- Si el profesor incluyó un logo para el título dentro de images/ -->
+            <h1 class="hero-title">Snow White</h1>
+            <p class="hero-subtitle">Experience Snow White, now playing only in theaters!</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">Get Tickets Now</a>
+                <a href="#" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="container">
+        
+        <!-- SECCIÓN 1: Tarjetas de Novedades (4 Columnas) -->
+        <section class="grid-4-columns">
+            <article class="card">
+                <img src="images/performance.jpg" alt="A Special Performance">
+                <div class="card-body">
+                    <span class="badge">A Special Performance</span>
+                    <p>Rachel Zegler Performs "Waiting on a Wish" at the Castle...</p>
+                    <a href="#" class="card-link">WATCH NOW</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/fashion.jpg" alt="The Art of Fairytale Fashion">
+                <div class="card-body">
+                    <span class="badge">The Art of Fairytale Fashion</span>
+                    <p>Legendary Costume Designer Sandy Powell Brings Fairytale...</p>
+                    <a href="#" class="card-link">WATCH NOW</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/disney_store.jpg" alt="Disney Store">
+                <div class="card-body">
+                    <span class="badge">Disney Store</span>
+                    <p>NEW Disney's Snow White 11" Limited Edition Doll</p>
+                    <a href="#" class="card-link">SHOP NOW</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/conversation.jpg" alt="A Musical Conversation">
+                <div class="card-body">
+                    <span class="badge">A Musical Conversation</span>
+                    <p>Rachel Zegler and Benj Pasek and Justin Paul Reminisce...</p>
+                    <a href="#" class="card-link">WATCH NOW</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- SECCIÓN 2: Explore More Disney+ (3 Columnas) -->
+        <section class="disney-plus-section">
+            <h2 class="section-title">Explore More Disney+</h2>
+            <div class="grid-3-columns">
+                <div class="card-dark" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/moana2.jpg');">Moana 2</div>
+                <div class="card-dark" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/daredevil.jpg');">Daredevil Born Again</div>
+                <div class="card-dark" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/next_disney_plus.jpg');">Next On Disney+</div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
